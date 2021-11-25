@@ -1,0 +1,29 @@
+.service {
+  margin-top: 200px;
+
+  .title {
+    margin-bottom: 26px;
+
+    h1 {
+      font-size: 36px;
+    }
+  }
+
+  .card-service {
+    margin-top: 80px;
+  }
+
+  .desc {
+    margin-top: 33px;
+    padding: 0px 80px;
+
+    p {
+      font-size: 18px;
+      color: $grey;
+    }
+  }
+
+  .action {
+    margin-top: 69px;
+  }
+}
