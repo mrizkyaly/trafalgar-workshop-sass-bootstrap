@@ -2,7 +2,16 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "style.scss"
+        "style.scss",
+        "base/_color.scss",
+        "base/_typo.scss",
+        "components/_button.scss",
+        "_global.scss",
+        "layout/_navbar.scss",
+        "layout/_jmb-virtual.scss",
+        "layout/_service.scss",
+        "layout/_jmb-provide.scss",
+        "layout/_footer.scss"
     ],
     "names": [],
     "file": "style.css"
