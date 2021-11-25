@@ -1,0 +1,23 @@
+.jmb {
+  margin-top: 50px;
+
+  .jmb-desc {
+    .title {
+      margin-bottom: 25px;
+
+      h1 {
+        font-size: 48px;
+        color: $black2;
+      }
+    }
+
+    .desc {
+      margin-bottom: 45px;
+
+      p {
+        font-size: 21px;
+        color: $grey;
+      }
+    }
+  }
+}

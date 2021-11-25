@@ -1,0 +1,32 @@
+.btn-tfl {
+  width: 200px;
+  padding: 12px 40px;
+  border-radius: 55px;
+  transition: all ease 0.5s;
+}
+
+.btn-tfl-action {
+  @extend .btn-tfl;
+  color: $white;
+  background-color: $primary;
+
+  &:hover {
+    background-color: transparent;
+    border: 1px solid $primary;
+    color: $primary;
+    box-shadow: 4px 8px 16px rgba(69, 143, 246, 0.2);
+  }
+}
+
+.btn-tfl-outline {
+  @extend .btn-tfl;
+  color: $primary;
+  background-color: transparent;
+  border: 1px solid $primary;
+
+  &:hover {
+    color: $white;
+    background-color: $primary;
+
+  }
+}

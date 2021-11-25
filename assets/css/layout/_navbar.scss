@@ -1,0 +1,30 @@
+.header {
+  .navbar-tf {
+    padding-top: 56px;
+
+    .logo {
+      width: 160px;
+      height: 41px;
+    }
+
+    li {
+      margin-left: 40px;
+      font-size: 18px;
+
+      a {
+        color: $grey;
+        transition: all ease 0.5s;
+
+        &:hover {
+          color: $black2;
+        }
+      }
+
+      a.active {
+        font-weight: map-get($font-weights, extrabold);
+        color: $black2 !important;
+      }
+
+    }
+  }
+}

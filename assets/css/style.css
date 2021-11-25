@@ -1,7 +1,90 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap");
+.btn-tfl, .btn-tfl-action, .btn-tfl-outline {
+  width: 200px;
+  padding: 12px 40px;
+  border-radius: 55px;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.btn-tfl-action {
+  color: #fff;
+  background-color: #458FF6;
+}
+
+.btn-tfl-action:hover {
+  background-color: transparent;
+  border: 1px solid #458FF6;
+  color: #458FF6;
+  -webkit-box-shadow: 4px 8px 16px rgba(69, 143, 246, 0.2);
+          box-shadow: 4px 8px 16px rgba(69, 143, 246, 0.2);
+}
+
+.btn-tfl-outline {
+  color: #458FF6;
+  background-color: transparent;
+  border: 1px solid #458FF6;
+}
+
+.btn-tfl-outline:hover {
+  color: #fff;
+  background-color: #458FF6;
+}
+
 * {
   margin: 0;
   padding: 0;
   font-family: 'Mulish', sans-serif;
+}
+
+.header .navbar-tf {
+  padding-top: 56px;
+}
+
+.header .navbar-tf .logo {
+  width: 160px;
+  height: 41px;
+}
+
+.header .navbar-tf li {
+  margin-left: 40px;
+  font-size: 18px;
+}
+
+.header .navbar-tf li a {
+  color: #7D7987;
+  -webkit-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+}
+
+.header .navbar-tf li a:hover {
+  color: #1F1534;
+}
+
+.header .navbar-tf li a.active {
+  font-weight: 800;
+  color: #1F1534 !important;
+}
+
+.jmb {
+  margin-top: 50px;
+}
+
+.jmb .jmb-desc .title {
+  margin-bottom: 25px;
+}
+
+.jmb .jmb-desc .title h1 {
+  font-size: 48px;
+  color: #1F1534;
+}
+
+.jmb .jmb-desc .desc {
+  margin-bottom: 45px;
+}
+
+.jmb .jmb-desc .desc p {
+  font-size: 21px;
+  color: #7D7987;
 }
 /*# sourceMappingURL=style.css.map */
