@@ -1,1 +1,7 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
