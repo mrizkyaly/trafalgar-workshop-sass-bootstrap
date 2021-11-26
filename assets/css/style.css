@@ -31,6 +31,10 @@
   background-color: #458FF6;
 }
 
+.btn-toggler {
+  border: none;
+}
+
 .card-service .card {
   border-radius: 20px;
   border: none;
@@ -110,6 +114,21 @@ ul a {
   color: #1F1534 !important;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+  .header .navbar-tf {
+    padding-top: 32px;
+  }
+  .header .navbar-tf .navbar-nav {
+    text-align: center;
+  }
+  .header .navbar-tf .navbar-nav li {
+    padding: 26px;
+  }
+  .header .navbar-tf .navbar-nav li a {
+    font-size: 24px;
+  }
+}
+
 .jmb {
   margin-top: 50px;
 }
@@ -154,7 +173,7 @@ ul a {
 }
 
 .service .desc p {
-  font-size: 18px;
+  font-size: 16px;
   color: #7D7987;
 }
 
@@ -162,12 +181,18 @@ ul a {
   margin-top: 69px;
 }
 
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+  .service .desc p {
+    font-size: 12px;
+  }
+}
+
 .footer {
   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
 }
 
 .footer .container {
-  margin-top: 200px;
+  margin-top: 120px;
   padding: 100px 50px 100px 50px;
 }
 
