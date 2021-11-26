@@ -1,0 +1,77 @@
+.footer {
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+  .container {
+    margin-top: 200px;
+    padding: 100px 50px 100px 50px;
+
+    .footer-detail {
+      p {
+        color: $white;
+        font-weight: map-get($font-weights, thin);
+      }
+
+      .desc {
+        margin-top: 17px;
+
+        p {
+          font-size: 18px;
+        }
+      }
+
+      .copyright {
+        margin-top: 43px;
+
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .footer-link {
+      margin-left: 120px;
+
+      @media only screen and (min-width: 300px) and (max-width: 991.98px) {
+        margin-left: 0;
+        margin-top: 24px;
+
+        link {
+
+
+          h5 {
+            margin-top: 24px;
+
+          }
+        }
+      }
+
+      h5 {
+        font-size: 20px;
+        font-weight: map-get($font-weights, bold);
+        color: $white;
+        margin-bottom: 32px;
+      }
+
+      ul {
+        li {
+          margin-bottom: 16px;
+
+          a {
+            color: $white;
+            font-weight: map-get($font-weights, thin);
+            transition: all ease 0.3s;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+
+      }
+
+
+    }
+
+
+  }
+}

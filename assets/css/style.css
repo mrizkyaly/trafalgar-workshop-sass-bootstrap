@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800&display=swap");
 .btn-tfl, .btn-tfl-action, .btn-tfl-outline {
   width: 200px;
   padding: 12px 40px;
@@ -68,6 +68,17 @@
   margin: 0;
   padding: 0;
   font-family: 'Mulish', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul a {
+  text-decoration: none;
+  padding-left: 0px;
 }
 
 .header .navbar-tf {
@@ -149,5 +160,71 @@
 
 .service .action {
   margin-top: 69px;
+}
+
+.footer {
+  background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+}
+
+.footer .container {
+  margin-top: 200px;
+  padding: 100px 50px 100px 50px;
+}
+
+.footer .container .footer-detail p {
+  color: #fff;
+  font-weight: 300;
+}
+
+.footer .container .footer-detail .desc {
+  margin-top: 17px;
+}
+
+.footer .container .footer-detail .desc p {
+  font-size: 18px;
+}
+
+.footer .container .footer-detail .copyright {
+  margin-top: 43px;
+}
+
+.footer .container .footer-detail .copyright p {
+  font-size: 16px;
+}
+
+.footer .container .footer-link {
+  margin-left: 120px;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 991.98px) {
+  .footer .container .footer-link {
+    margin-left: 0;
+    margin-top: 24px;
+  }
+  .footer .container .footer-link link h5 {
+    margin-top: 24px;
+  }
+}
+
+.footer .container .footer-link h5 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 32px;
+}
+
+.footer .container .footer-link ul li {
+  margin-bottom: 16px;
+}
+
+.footer .container .footer-link ul li a {
+  color: #fff;
+  font-weight: 300;
+  -webkit-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+
+.footer .container .footer-link ul li a:hover {
+  text-decoration: underline;
 }
 /*# sourceMappingURL=style.css.map */
