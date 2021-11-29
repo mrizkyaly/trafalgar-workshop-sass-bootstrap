@@ -167,6 +167,13 @@ ul a {
   margin-top: 80px;
 }
 
+.service .card-service img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 100px;
+  height: 80px;
+}
+
 .service .desc {
   margin-top: 33px;
   padding: 0px 80px;

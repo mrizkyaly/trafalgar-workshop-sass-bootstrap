@@ -1,37 +1,41 @@
 .service {
-  margin-top: 200px;
+    margin-top: 200px;
 
-  .title {
-    margin-bottom: 26px;
+    .title {
+        margin-bottom: 26px;
 
-    h1 {
-      font-size: 36px;
+        h1 {
+            font-size: 36px;
+        }
     }
-  }
 
-  .card-service {
-    margin-top: 80px;
-  }
-
-  .desc {
-    margin-top: 33px;
-    padding: 0px 80px;
-
-    p {
-      font-size: 16px;
-      color: $grey;
+    .card-service {
+        margin-top: 80px;
+        img {
+            object-fit: contain;
+            width: 100px;
+            height: 80px;
+        }
     }
-  }
 
-  .action {
-    margin-top: 69px;
-  }
-
-  @media only screen and (min-width: 300px) and (max-width: 991.98px) {
     .desc {
-      p {
-        font-size: 12px;
-      }
+        margin-top: 33px;
+        padding: 0px 80px;
+        p {
+            font-size: 16px;
+            color: $grey;
+        }
     }
-  }
+
+    .action {
+        margin-top: 69px;
+    }
+
+    @media only screen and (min-width: 300px) and (max-width: 991.98px) {
+        .desc {
+            p {
+                font-size: 12px;
+            }
+        }
+    }
 }
