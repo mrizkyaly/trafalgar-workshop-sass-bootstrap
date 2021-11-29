@@ -94,22 +94,19 @@ ul a {
   height: 41px;
 }
 
-.header .navbar-tf li {
+.header .navbar-tf .navbar-nav a {
   margin-left: 40px;
   font-size: 18px;
-}
-
-.header .navbar-tf li a {
   color: #7D7987;
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
 }
 
-.header .navbar-tf li a:hover {
+.header .navbar-tf .navbar-nav a:hover {
   color: #1F1534;
 }
 
-.header .navbar-tf li a.active {
+.header .navbar-tf .navbar-nav a.active {
   font-weight: 800;
   color: #1F1534 !important;
 }
@@ -121,11 +118,9 @@ ul a {
   .header .navbar-tf .navbar-nav {
     text-align: center;
   }
-  .header .navbar-tf .navbar-nav li {
-    padding: 26px;
-  }
-  .header .navbar-tf .navbar-nav li a {
+  .header .navbar-tf .navbar-nav a {
     font-size: 24px;
+    padding: 26px;
   }
 }
 

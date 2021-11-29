@@ -1,48 +1,43 @@
 .header {
-  .navbar-tf {
-    padding-top: 56px;
-
-    .logo {
-      width: 160px;
-      height: 41px;
-    }
-
-    li {
-      margin-left: 40px;
-      font-size: 18px;
-
-      a {
-        color: $grey;
-        transition: all ease 0.5s;
-
-        &:hover {
-          color: $black2;
-        }
-      }
-
-      a.active {
-        font-weight: map-get($font-weights, extrabold);
-        color: $black2 !important;
-      }
-
-    }
-  }
-
-  @media only screen and (min-width: 300px) and (max-width: 991.98px) {
     .navbar-tf {
-      padding-top: 32px;
+        padding-top: 56px;
 
-      .navbar-nav {
-        text-align: center;
-
-        li {
-          padding: 26px;
-
-          a {
-            font-size: 24px;
-          }
+        .logo {
+            width: 160px;
+            height: 41px;
         }
-      }
+
+        .navbar-nav {
+            a {
+                margin-left: 40px;
+                font-size: 18px;
+                color: $grey;
+                transition: all ease 0.5s;
+
+                &:hover {
+                    color: $black2;
+                }
+            }
+
+            a.active {
+                font-weight: map-get($font-weights, extrabold);
+                color: $black2 !important;
+            }
+        }
     }
-  }
+
+    @media only screen and (min-width: 300px) and (max-width: 991.98px) {
+        .navbar-tf {
+            padding-top: 32px;
+
+            .navbar-nav {
+                text-align: center;
+
+                a {
+                    font-size: 24px;
+                    padding: 26px;
+                }
+            }
+        }
+    }
 }
