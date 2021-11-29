@@ -113,6 +113,7 @@ ul a {
 
 @media only screen and (min-width: 300px) and (max-width: 991.98px) {
   .header .navbar-tf {
+    height: 100%;
     padding-top: 32px;
   }
   .header .navbar-tf .navbar-nav {
